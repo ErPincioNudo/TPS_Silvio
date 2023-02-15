@@ -12,9 +12,6 @@ int main()
 	// array and constants
 	const int arr0Size = 10;
 	int arr0[arr0Size];
-
-	// Welcome message
-	std::cout << "Hello this program will create an array of 10 integers,\nload it with random nums from -50 to 50,\nand then heap allocate another array that'll have the elements inverted.\n";
 	
 	// Loading array
 	loadArr(arr0, arr0Size);
@@ -32,6 +29,9 @@ int main()
 	std::cout << "\n\nThe program has finished executing and it'll now close once you press enter. ";
 
 	std::cin.get();
+	
+	std::cout<<"dshgufrehgoiuhghjtoidgfh";
+	std::cout<<"dsgoiurehpoipu";
 }
 
 int* invertArr(int arr[], int arrSize) // Return a heap allocated inverted array of the one taken as input !! REMEMBER TO DELETE THE ARRAY !!
