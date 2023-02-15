@@ -32,6 +32,7 @@ int main()
 	
 	std::cout<<"dshgufrehgoiuhghjtoidgfh";
 	std::cout<<"dsgoiurehpoipu";
+	std::cout<<"risolution fame";
 }
 
 int* invertArr(int arr[], int arrSize) // Return a heap allocated inverted array of the one taken as input !! REMEMBER TO DELETE THE ARRAY !!
